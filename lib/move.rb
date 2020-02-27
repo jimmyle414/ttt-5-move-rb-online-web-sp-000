@@ -20,4 +20,4 @@ def move(board, index, character = "X")
   return board
 end
 
-display_board
+display_board(board)
