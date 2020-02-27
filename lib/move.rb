@@ -7,7 +7,7 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
-#Take players 1-9 input and turn it into a board input 0-8
+
 
 def index = input_to_index(input)
   new_user_input = user_input.to_i
