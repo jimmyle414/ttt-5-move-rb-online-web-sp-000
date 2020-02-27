@@ -12,7 +12,5 @@ end
 def index = input_to_index(input)
   new_user_input = user_input.to_i
   new_user_input -= 1 
-  
-
-  input = index.to_i - 1
+  new_user_input
 end
