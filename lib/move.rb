@@ -10,5 +10,6 @@ end
 #Take players 1-9 input and turn it into a board input 0-8
 
 def index = input_to_index(input)
+
   input = index.to_i - 1
 end
