@@ -7,6 +7,8 @@ def display_board(board)
 end
 
 # code your input_to_index and move method here!
+#Take players 1-9 input and turn it into a board input 0-8
+
 def index = input_to_index(user_input)
   puts "Please enter 1-9:"
   user_input = gets.strip
