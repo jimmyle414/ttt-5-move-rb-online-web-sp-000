@@ -8,5 +8,6 @@ end
 
 # code your input_to_index and move method here!
 def input_to_index(user_input)
+  puts "Please"
   user_input = gets.strip
 end
